@@ -51,4 +51,4 @@ test-dir/
 
 - The script checks for and creates tabix indices if missing.
 - If output files already exist, they will be skipped (not overwritten).
-- A summary of each VCF file is printed and saved as `merge-split.stats`.
+- A summary of each VCF file is printed and saved as `$PREFIX-merge-split.stats`.
