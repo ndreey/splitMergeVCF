@@ -5,8 +5,6 @@
 echo "$(date) [INFO]        Starting script execution"
 
 # Load slurm modules
-#ml load gatk/4.5.0.0
-#ml load vcftools/0.1.16
 #ml load bcftools/1.20
 
 
@@ -52,7 +50,7 @@ INVARIANTS=${FINDIR}/${PREFIX}.invariants.vcf.gz
 ALL_SITES_BIALLELIC=${FINDIR}/${PREFIX}.biallelic.with-invariants.vcf.gz
 
 # Define stats file
-STATS_OUT=$STATSDIR/merge-split.stats
+STATS_OUT=$STATSDIR/${PREFIX}-merge-split.stats
 
 echo "$(date) [START]       Processing VCF-WRANGLE for: $(basename $VCF_F)"
 
