@@ -1,19 +1,18 @@
 # VCF Wrangle Script
 
-This bash script automates the process of splitting and merging VCF files to extract:
+This bash script shows the process of splitting and merging VCF files to extract:
 - All variant sites
 - Biallelic SNPs
-- Invariant sites  
-It also merges selected outputs and summarizes key statistics for each resulting file.
+- Invariant sites
+- Invariant sites + Biallelic SNPs
+It also merges selected outputs and summarizes statistics for each resulting file.
 
 ## Requirements
 
 Ensure the following tools are available in your environment:
 - `bcftools`
-- `tabix`
-- `bash`
 
-If using a module system (e.g., SLURM), uncomment and modify the appropriate `ml load` lines in the script.
+If using a module system (e.g., SLURM), uncomment or modify the appropriate `ml load` lines in the script.
 
 ## Usage
 
@@ -36,7 +35,7 @@ bash splitMergeVCF.sh --vcf PELLEsubset.vcf.gz --outdir test-dir --prefix test
 ```
 test-dir/
 ├── stats
-│   └── merge-split.stats
+│   └── test-merge-split.stats
 └── vcf-final
     ├── test.biallelic.vcf.gz
     ├── test.biallelic.vcf.gz.tbi
