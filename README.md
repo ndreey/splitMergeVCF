@@ -1,9 +1,3 @@
-
-Author: André Bourbonnais
-Created: 2025-05-27
-github: https://github.com/ndreey
-
-
 # VCF Wrangle Script
 
 This bash script automates the process of splitting and merging VCF files to extract:
