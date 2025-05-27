@@ -5,6 +5,7 @@ This bash script shows the process of splitting and merging VCF files to extract
 - Biallelic SNPs
 - Invariant sites
 - Invariant sites + Biallelic SNPs
+
 It also merges selected outputs and summarizes statistics for each resulting file.
 
 ## Requirements
