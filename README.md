@@ -23,6 +23,7 @@ bash splitMergeVCF.sh --vcf FILE --outdir DIR --prefix NAME
 
 **Arguments:**
 - `--vcf FILE` – Path to input VCF file (must be compressed `.vcf.gz`)
+    -  `bcftools` can handle `.gz` files compressed with `gzip` but it prefers files that are compressed with `bgzip`)
 - `--outdir DIR` – Output directory (will be created if it doesn't exist)
 - `--prefix NAME` – Prefix for all output files
 
