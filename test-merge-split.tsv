@@ -1,0 +1,6 @@
+VCF	samples	records	invariants	SNPs	MNPs	indels	others	multi-sites	multi-SNPs
+PELLEsubset.vcf.gz	71	100000	91156	4409	0	456	0	1510	293
+test.variants.vcf.gz	71	8844	0	4409	0	456	0	1510	293
+test.biallelic.vcf.gz	71	2985	0	2985	0	0	0	0	0
+test.invariants.vcf.gz	71	91156	91156	0	0	0	0	0	0
+test.biallelic.with-invariants.vcf.gz	71	94141	91156	2985	0	0	0	0	0
